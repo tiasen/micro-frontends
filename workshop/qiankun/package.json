@@ -17,7 +17,9 @@
         "start:login": "cd apps/login && npm start",
         "install:dashboard": "cd apps/dashboard && npm i",
         "start:dashboard": "cd apps/dashboard && npm start",
-        "format": "prettier ./**/*.{js,ts,html,json,css} --write"
+        "format": "prettier ./**/*.{js,ts,html,json,css} --write",
+        "install:trends": "cd apps/trends && npm i",
+        "start:trends": "cd apps/trends && npm start"
     },
     "private": "true",
     "keywords": [],
@@ -27,6 +29,7 @@
         "npm-run-all": "^4.1.5"
     },
     "devDependencies": {
+        "@rescripts/cli": "^0.0.14",
         "prettier": "2.0.4"
     }
 }
